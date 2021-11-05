@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+    nav{
+        background-color: $primary_color;
+        display: flex;
+        justify-content: center;
+        ul{
+            display: flex;            
+            align-items: center;
+            list-style: none;
+            li{
+                padding: 1.25rem;
+                &.active{
+                    a{
+                        color: red;
+                    }
+                }
+            }
+        }
+
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+.jumbo{
+    height: 12.5rem;
+    background-image: url("/images/jumbotron.jpg");
+}

@@ -50,6 +50,35 @@ header nav a {
 
 .section_main {
   background-color: black;
-  height: 12.5rem;
+}
+
+.container_comics {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 3.125rem 0;
+}
+
+.container_comics .card {
+  width: 16.6666666667%;
+  padding: 5px;
+}
+
+.container_comics .card_title {
+  color: white;
+}
+
+.container_comics .card_img {
+  height: 9.5rem;
+  width: 9.5rem;
+  padding: 0.3125rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.container_comics li {
+  color: white;
 }
 

@@ -1,4 +1,26 @@
 .section_main{
     background-color: black;
-    height: 12.5rem;
+}
+.container_comics{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 3.125rem 0;
+    .card{
+    width: 16.6666666667%;
+    padding: 5px;
+        &_title{
+            color: white;
+        }
+        &_img{
+            height: 9.5rem;
+            width: 9.5rem;
+            padding: .3125rem;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    li{
+        color: white;
+    }
 }

@@ -20,7 +20,6 @@ header {
 }
 
 header nav {
-  background-color: #0282F9;
   display: flex;
   justify-content: center;
 }
@@ -36,7 +35,8 @@ header nav ul li {
 }
 
 header nav ul li.active a {
-  color: red;
+  color: #0282F9;
+  border-bottom: 1px solid #0282F9;
 }
 
 header nav a {
@@ -49,7 +49,11 @@ header nav a {
 }
 
 .section_main {
-  background-color: black;
+  background-color: #191919;
+}
+
+.section_main .container {
+  text-align: center;
 }
 
 .container_comics {
@@ -80,5 +84,74 @@ header nav a {
 
 .container_comics li {
   color: white;
+}
+
+.main_button {
+  background-color: #0282F9;
+  border: none;
+  padding: 0.325rem 2.25rem;
+  margin-bottom: 1.25rem;
+  color: white;
+}
+
+.container_info {
+  height: 9.5rem;
+  background-color: #0282F9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container_info .container {
+  display: flex;
+}
+
+.container_info .container_img {
+  display: flex;
+  padding: 0 1.25rem;
+}
+
+.container_info .container_img img {
+  width: 20%;
+}
+
+.container_text {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 0.625rem;
+}
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  padding: 2.25rem 0;
+}
+
+.background .container {
+  display: flex;
+}
+
+ul {
+  padding: 0.625rem 0.625rem;
+  list-style: none;
+}
+
+ul li {
+  color: grey;
+  font-size: 0.875rem;
+}
+
+ul li:first-child {
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding-bottom: 0.9375rem;
+}
+
+.container_list:not(:first-child) {
+  padding: 0 0.9375rem;
 }
 

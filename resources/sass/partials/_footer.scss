@@ -1,0 +1,28 @@
+.background{
+    // background-image: url("../assets/img/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    padding: 2.25rem 0;
+    .container{
+        display: flex;
+    } 
+}
+ul{
+    padding: .625rem .625rem;
+    list-style: none;
+    li{
+        color: grey;
+        font-size: .875rem;
+    }
+    li:first-child{
+        color: white;
+        font-weight: bold;
+        font-size: 1.125rem;
+        padding-bottom: .9375rem;
+    }
+}
+.container_list:not(:first-child){
+    padding: 0 .9375rem;
+}

@@ -1,5 +1,8 @@
 .section_main{
-    background-color: black;
+    background-color: #191919;
+    .container{
+        text-align: center;
+    }
 }
 .container_comics{
     display: flex;
@@ -23,4 +26,36 @@
     li{
         color: white;
     }
+}
+
+.main_button{
+    background-color: $primary_color;
+    border: none;
+    padding: .325rem 2.25rem;
+    margin-bottom: 1.25rem;
+    color: white;
+}
+
+.container_info{
+    height: 9.5rem;
+    background-color: $primary_color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .container{
+        display: flex;
+    }
+    .container_img{
+        display: flex;
+        padding: 0 1.25rem;
+        img{
+            width: 20%;
+        }
+    }
+}
+.container_text{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 .625rem;
 }

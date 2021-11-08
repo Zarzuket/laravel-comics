@@ -1,18 +1,21 @@
 header{
     text-align: center;
     nav{
-        background-color: $primary_color;
         display: flex;
         justify-content: center;
         ul{
             display: flex;            
             align-items: center;
             list-style: none;
+            // :nth-child(2){
+            //     border-bottom: 1px solid $primary_color;
+            // }
             li{
                 padding: 1.25rem;
                 &.active{
                     a{
-                        color: red;
+                        color: $primary_color;
+                        border-bottom: 1px solid $primary_color;
                     }
                 }
             }

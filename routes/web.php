@@ -15,9 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = config("comics");
+    $firstListFooter = config("footerListFirst");
+    // $secondListFooter = config("footerListSecond");
     // dd($data);
+    // dd($firstListFooter);
+    // dd($secondListFooter);
     $tmp = [
         "comics" => $data
     ];
-    return view('index',$tmp);
+    $temporary = [
+        "footerListFirst" => $firstListFooter
+    ];
+    // $temporaryB = [
+    //     "footerListSecond" => $secondListFooter
+    // $temporaryB in view
+    // ];
+    return view('index',$tmp,$temporary,);
 });
